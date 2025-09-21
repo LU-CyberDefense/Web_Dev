@@ -3,3 +3,11 @@
   color: red;
   border-bottom: 2px dotted red; /* Light blue dotted line */
 }
+
+#positioned-div {
+  position: absolute;
+  top: 20px;
+  right: 40px;
+  background-color: #f0f0f0; /* Light gray background */
+  border: 2px solid #ccc; /* Solid border with a light gray color */
+}
