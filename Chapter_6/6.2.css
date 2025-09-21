@@ -1,0 +1,5 @@
+.dotted-headline {
+  font-size: 2em;
+  color: red;
+  border-bottom: 2px dotted red; /* Light blue dotted line */
+}
