@@ -14,7 +14,6 @@ footer {
 .headline {
   color: #4B0082;
   border-bottom: 2px dotted #4B0082;
-  /* padding-bottom: 5px; */
 }
 
 h1 {
@@ -31,5 +30,23 @@ h1 {
   background-color: white;
   width: 80%;
   box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
-  /* padding: 10px; */
+}
+
+a {
+  color: black; 
+  text-decoration: underline;
+  background-color: green;
+  border-radius: 3px; 
+}
+
+
+a:visited {
+  color: black; 
+  background-color: red;
+}
+
+
+a:hover {
+  background-color: blue;
+  text-decoration: none; 
 }
