@@ -31,13 +31,14 @@ a {
 }
 
 a:visited {
-  color: black; 
-  background-color: lightred;
+  color: white; 
+  background-color: red;
 }
 
 
 a:hover {
-  background-color: lightyellow;
+  color: white;
+  background-color: blue;
   text-decoration: none; 
 }
 
