@@ -26,23 +26,22 @@ h1 {
 a {
   color: black; 
   text-decoration: underline;
-  background-color: green;
+  background-color: lightgreen;
   border-radius: 3px; 
 }
 
 a:visited {
   color: black; 
-  background-color: red;
+  background-color: lightred;
 }
 
 
 a:hover {
-  background-color: blue;
+  background-color: lightyellow;
   text-decoration: none; 
 }
 
 #section {
-  font-family: Arial;
   font-size: small;
   color: red;
   background-color: white;
