@@ -1,13 +1,23 @@
 .dotted-headline {
   font-size: 2em;
   color: red;
-  border-bottom: 2px dotted red; /* Light blue dotted line */
+  border-bottom: 2px dotted red; 
 }
 
 #positioned-div {
   position: absolute;
   top: 20px;
   right: 40px;
-  background-color: #f0f0f0; /* Light gray background */
-  border: 2px solid #ccc; /* Solid border with a light gray color */
+  background-color: lightgray; 
+  border: 2px solid black; 
+}
+
+.relative-div {
+  position: relative;
+  left: 15px; 
+  background-color: lightgreen; 
+}
+
+ul {
+  list-style-image: url('yls.jpg'); 
 }
