@@ -8,18 +8,13 @@ body { font-family:Verdana, Arial, sans-serif;
        background-color: #00005D;
 	  margin: 0;
 }
-#wrapper { background-color: #b3c7e6; 
-           color: #000066;
-           width: 80%;
-		   margin: auto;
-           min-width:850px;
-} 
-#wrapper { display: grid;
-		grid-template-columns: 150px 1fr 30%;
-		grid-template-rows: 100px auto 50px;
-		grid-template-areas: "header header header" "nav main aside" "footer footer footer" ; 
+#wrapper {
+	  background-color: #b3c7e6;
+	  color: #000066;
+	  width: 80%;
+	  margin: auto;
+	  min-width: 850px;
 }
-
 #header {
         color: #00005D; 
         font-size: 150%; 
@@ -29,7 +24,7 @@ body { font-family:Verdana, Arial, sans-serif;
 		min-height: 100vh;
 		justify-content: center;
 		align-items: center;
-		background-size: 100% 100%;
+		background-size: cover;
 		background-repeat: no-repeat; 
 }
 #nav { float: right;
@@ -75,18 +70,13 @@ h2 { color: #869dc7;
 #nav a:hover { background-color: #eaeaea;
               color: #869dc7;
 }
-#header { grid-area: header; }
-#nav { grid-area: nav; }
-#main { grid-area: main; }
-#aside { grid-area: aside; }
-#footer { grid-area: footer; }
 </style>
 </head>
 <body>
-<div id="wrapper">
-  <div id="header">
+<div id="header">
     <h1>Centered Heading</h1>
-    </div> <!-- end of header -->
+</div> <!-- end of header -->
+<div id="wrapper">
   <div id="nav">
     <a href="index.html">Home</a>
     <a href="menu.html">Menu</a>
@@ -106,10 +96,8 @@ h2 { color: #869dc7;
 	<p>Take in some scenery!</p>
 	<p>The top of our lighthouse offers a panoramic view of the countryside. Challenge your friends to climb our 100-stair tower.</p>
    </div> <!-- end of content -->
-   <div id="footer">Copyright &copy; 2012
-		<footer>
-    		&copy; 2025 Juan Stoffels. All rights reserved.
-  		</footer>
+   <div id="footer">
+		&copy; 2025 Juan Stoffels. All rights reserved.
    </div><!-- end of footer -->
   </div> <!-- end of wrapper -->
 </body>
