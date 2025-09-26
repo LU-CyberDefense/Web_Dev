@@ -13,12 +13,6 @@ body { font-family:Verdana, Arial, sans-serif;
 		   margin: auto;
            min-width:850px;
 } 
-#wrapper { display: grid;
-		grid-template-columns: 150px 1fr 30%;
-		grid-template-rows: 100px auto 50px;
-		grid-template-areas: "header header header" "nav main aside" "footer footer footer" ; 
-}
-
 #header { background-color: #869dc7;
         color: #00005D; 
         font-size: 150%; 
@@ -65,11 +59,6 @@ h2 { color: #869dc7;
 #nav a:hover { background-color: #eaeaea;
               color: #869dc7;
 }
-header { grid-area: header; }
-nav { grid-area: nav; }
-main { grid-area: main; }
-aside { grid-area: aside; }
-footer { grid-area: footer; }
 </style>
 </head>
 <body>
@@ -90,7 +79,7 @@ footer { grid-area: footer; }
     <p>Enjoy a selection of our fresh-baked, organic pastries, including 
   fresh-fruit muffins, scones, croissants, and cinammon rolls.</p>
 	<aside>
- 		<img src="Ch7Images/lighthouseisland.jpg" width="250" height="355" id="aside" alt="Lighthouse Island" />
+ 		<img src="Ch7Images/lighthouseisland.jpg" width="250" height="355" id="floatright" alt="Lighthouse Island" />
   	</aside>
 	<h2>Lunchtime is Anytime</h2>
     <p>Savor delicious wraps and sandwiches on hearty, whole-grain breads with locally-grown salad, fruit, and vegetables. </p>
