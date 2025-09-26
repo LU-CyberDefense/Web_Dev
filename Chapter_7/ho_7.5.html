@@ -65,11 +65,11 @@ h2 { color: #869dc7;
 #nav a:hover { background-color: #eaeaea;
               color: #869dc7;
 }
-#header { grid-area: header; }
-#nav { grid-area: nav; }
-#main { grid-area: main; }
-#aside { grid-area: aside; }
-#footer { grid-area: footer; }
+header { grid-area: header; }
+nav { grid-area: nav; }
+main { grid-area: main; }
+aside { grid-area: aside; }
+footer { grid-area: footer; }
 </style>
 </head>
 <body>
@@ -89,18 +89,19 @@ h2 { color: #869dc7;
     <h2>Specialty Pastries</h2>
     <p>Enjoy a selection of our fresh-baked, organic pastries, including 
   fresh-fruit muffins, scones, croissants, and cinammon rolls.</p>
-     <img src="Ch7Images/lighthouseisland.jpg" width="250" height="355" id="aside" alt="Lighthouse Island" />
-  	<h2>Lunchtime is Anytime</h2>
+	<aside>
+ 		<img src="Ch7Images/lighthouseisland.jpg" width="250" height="355" id="aside" alt="Lighthouse Island" />
+  	</aside>
+	<h2>Lunchtime is Anytime</h2>
     <p>Savor delicious wraps and sandwiches on hearty, whole-grain breads with locally-grown salad, fruit, and vegetables. </p>
     <h2>Panoramic View</h2>
 	<p>Take in some scenery!</p>
 	<p>The top of our lighthouse offers a panoramic view of the countryside. Challenge your friends to climb our 100-stair tower.</p>
    </main> <!-- end of content -->
-   <div id="footer">Copyright &copy; 2012
-		<footer>
+	<footer>
+			Copyright &copy; 2012
     		&copy; 2025 Juan Stoffels. All rights reserved.
-  		</footer>
-   </div><!-- end of footer -->
+	</footer>
   </div> <!-- end of wrapper -->
 </body>
 </html>
