@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Brochure Request Form</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    margin: 40px;
+  }
+  form {
+    background-color: #fff;
+    width: 400px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    margin: auto;
+  }
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  input, select, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 4px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+</style>
+</head>
+<body>
+
+<form action="submit_brochure_request.php" method="post">
+  <h2>Brochure Request Form</h2>
+
+  <label for="fname">First Name:</label>
+  <input type="text" id="fname" name="fname" required>
+
+  <label for="lname">Last Name:</label>
+  <input type="text" id="lname" name="lname" required>
+
+  <label for="email">Email (optional):</label>
+  <input type="email" id="email" name="email">
+
+  <input type="submit" value="Request Brochure">
+</form>
+
+</body>
+</html>
