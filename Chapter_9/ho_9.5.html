@@ -65,33 +65,33 @@
 
   <!-- Radio buttons -->
   <fieldset>
-    <legend>Preferred Contact Method</legend>
-    <input type="radio" id="contactEmail" name="contact" value="Email" checked>
-    <label for="contactEmail">Email</label><br>
-    <input type="radio" id="contactPhone" name="contact" value="Phone">
-    <label for="contactPhone">Phone</label><br>
-    <input type="radio" id="contactMail" name="contact" value="Mail">
-    <label for="contactMail">Mail</label>
+    <legend>How often you listen to music</legend>
+    <input type="radio" id="daily-freq" name="freq" value="daily" checked>
+    <label for="contactEmail">Daily</label><br>
+    <input type="radio" id="weekly-freq" name="freq" value="weekly">
+    <label for="contactPhone">Weekly</label><br>
+    <input type="radio" id="monthly-freq" name="freq" value="monthly">
+    <label for="contactMail">Monthly</label>
   </fieldset>
 
   <!-- Checkboxes -->
   <fieldset>
-    <legend>Topics of Interest</legend>
-    <input type="checkbox" id="webdev" name="interest" value="Web Development">
-    <label for="webdev">Web Development</label><br>
-    <input type="checkbox" id="security" name="interest" value="Cybersecurity">
-    <label for="security">Cybersecurity</label><br>
-    <input type="checkbox" id="database" name="interest" value="Database Management">
-    <label for="database">Database Management</label>
+    <legend>Favourite Genres</legend>
+    <input type="checkbox" id="rock" name="genre" value="Rock">
+    <label for="webdev">Rock</label><br>
+    <input type="checkbox" id="pop" name="genre" value="Pop">
+    <label for="security">Pop</label><br>
+    <input type="checkbox" id="classical" name="genre" value="Classical">
+    <label for="database">Classical</label>
   </fieldset>
 
   <!-- Select box -->
-  <label for="country">Select Your Country:</label>
-  <select id="country" name="country" size="3">
-    <option value="usa">United States</option>
-    <option value="canada">Canada</option>
-    <option value="uk">United Kingdom</option>
-    <option value="australia">Australia</option>
+  <label for="country">Select Your listening place:</label>
+  <select id="place" name="place" size="3">
+    <option value="car">Car</option>
+    <option value="room">Room</option>
+    <option value="work">Work</option>
+    <option value="park">Park</option>
   </select>
 
   <!-- Buttons -->
