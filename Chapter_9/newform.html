@@ -26,47 +26,25 @@
     font-weight: bold;
   }
 
-  input[type="text"],
-  input[type="password"],
-  select {
-    width: 100%;
-    padding: 8px;
-    margin-top: 4px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-  }
-
   fieldset {
     border: 1px solid #999;
     border-radius: 6px;
     margin-top: 15px;
     padding: 10px;
   }
-
-  legend {
-    font-weight: bold;
-  }
-
-  input[type="submit"],
-  input[type="image"] {
-    margin-top: 15px;
-  }
+  
 </style>
 </head>
 <body>
 
 <form action="https://webdevbasics.net/scripts/demo.php" method="post">
 
-  <!-- (a) Username text box -->
   <label for="username">Username:</label>
   <input type="text" id="username" name="username" maxlength="30" required>
 
-  <!-- (g) Password box -->
   <label for="pword">Password:</label>
   <input type="password" id="pword" name="pword" required>
 
-  <!-- (b) Radio buttons for favorite day -->
   <fieldset>
     <legend>Favorite Day of the Week</legend>
     <input type="radio" id="monday" name="favday" value="Monday">
@@ -77,7 +55,6 @@
     <label for="saturday">Saturday</label><br>
   </fieldset>
 
-  <!-- (c) Select list for favorite social site -->
   <label for="social">Favorite Social Networking Site:</label>
   <select id="social" name="social">
     <option value="facebook">Facebook</option>
@@ -86,7 +63,6 @@
     <option value="tiktok">TikTok</option>
   </select>
 
-  <!-- (d) Fieldset for shipping address -->
   <fieldset>
     <legend>Shipping Address</legend>
     <label for="address1">Address Line 1:</label>
@@ -105,10 +81,8 @@
     <input type="text" id="zip" name="zip">
   </fieldset>
 
-  <!-- (f) Hidden input for userid -->
   <input type="hidden" name="userid" value="12345">
 
-  <!-- (e) Image button -->
   <input type="image" src="signup.gif" alt="Sign Up" width="120" height="40">
 
 </form>
